@@ -1,0 +1,32 @@
+body{
+    background-color: darkslategray;
+}
+.akardion{
+    max-width: 500px;
+    margin: 20px auto;
+}
+.akardion-item{
+    border:1px solid rgb(255, 127, 212);
+}
+.title-question {
+    display: block;
+    color: rgb(127, 240, 255);
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 15px;
+}
+.title-question:hover{
+    background-color:rgb(255, 127, 212);
+
+}
+.akardion-image{
+    display: none;
+}
+.akardion-input{
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
