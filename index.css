@@ -2,18 +2,21 @@ body{
     background-color: darkslategray;
 }
 .akardion{
-    max-width: 500px;
+    max-width:650px;
     margin: 20px auto;
 }
 .akardion-item{
     border:1px solid rgb(255, 127, 212);
+    margin-bottom: 5px;
 }
 .title-question {
     display: block;
     color: rgb(127, 240, 255);
-    font-size: 16px;
+    font-size: 26px;
     cursor: pointer;
     padding: 10px 15px;
+    transition: background-color .2s
+    ease-out;
 }
 .title-question:hover{
     background-color:rgb(255, 127, 212);
@@ -29,4 +32,11 @@ body{
     appearance: none;
 
     position: absolute;
+}
+.akardion-input:checked ~ .akardion-image{
+    background-color:rgb(255, 127, 212);
+}
+
+.akardion-input:checked ~ .akardion-image{
+    display: block;
 }
