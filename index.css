@@ -26,10 +26,6 @@ body{
 .akardion-image{
     display: none;
 }
-.title-question:hover .akardion-image{
-    display: block;
-}
-
 
 .akardion-input{
     width: 0;
