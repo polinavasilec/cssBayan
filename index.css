@@ -20,11 +20,17 @@ body{
 }
 .title-question:hover{
     background-color:rgb(255, 127, 212);
-
 }
+
+
 .akardion-image{
     display: none;
 }
+.title-question:hover .akardion-image{
+    display: block;
+}
+
+
 .akardion-input{
     width: 0;
     height: 0;
@@ -33,10 +39,12 @@ body{
 
     position: absolute;
 }
-.akardion-input:checked ~ .akardion-image{
+.akardion-input:checked ~ .title-question{
     background-color:rgb(255, 127, 212);
 }
 
 .akardion-input:checked ~ .akardion-image{
     display: block;
 }
+
+
